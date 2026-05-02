@@ -13,22 +13,6 @@ authors:
 
 ## Introdução
 
-A crescente complexidade dos sistemas distribuídos e a necessidade de maior
-escalabilidade, resiliência e agilidade no desenvolvimento de software têm
-impulsionado a adoção do estilo arquitetural de microsserviços. Diferentemente
-das arquiteturas monolíticas tradicionais, os microsserviços propõem a
-decomposição de aplicações em serviços menores, independentes e fracamente
-acoplados, permitindo maior flexibilidade na evolução, implantação e manutenção
-dos sistemas.
-
-Nesse contexto, compreender como aplicações reais implementam esse estilo
-arquitetural torna-se fundamental para a formação de profissionais capazes de
-projetar, implantar e avaliar sistemas distribuídos modernos. Além disso, o
-estudo de aplicações de código aberto possibilita a análise direta de artefatos
-técnicos concretos, como repositórios de código, arquivos de configuração,
-contêineres e manifestos de implantação, fornecendo evidências práticas das
-decisões arquiteturais adotadas.
-
 Este trabalho tem como objetivo realizar uma análise comparativa de aplicações
 de microsserviços de código aberto, com base em um conjunto de critérios
 técnicos definidos. A proposta está alinhada com a atividade descrita no
@@ -43,20 +27,7 @@ aspectos como estrutura arquitetural, implementação, persistência de dados,
 implantação e adequação para uso em ambientes de laboratório, especialmente em
 cenários envolvendo conteinerização e orquestração com Kubernetes.
 
-Espera-se que, ao final, o trabalho contribua para uma compreensão mais
-aprofundada das características práticas dos microsserviços, bem como para a
-identificação de aplicações adequadas para experimentação, testes de
-desempenho, observabilidade e estudos de resiliência em ambientes acadêmicos e
-profissionais.
-
 ## Critério de Seleção das Aplicações
-
-A seleção das aplicações analisadas neste trabalho foi conduzida de forma
-criteriosa, com o objetivo de garantir a relevância técnica, a diversidade
-arquitetural e a viabilidade de análise a partir de evidências concretas.
-Buscou-se priorizar sistemas de código aberto que apresentassem indícios claros
-de adoção do estilo arquitetural de microsserviços, bem como disponibilidade de
-artefatos técnicos que permitissem uma caracterização fundamentada.
 
 Inicialmente, foram considerados como pré-requisitos essenciais a existência de
 repositório público acessível, a presença de documentação mínima de execução ou
@@ -79,9 +50,7 @@ artefatos suficientes para análise técnica aprofundada. Foram priorizados
 projetos que disponibilizam não apenas código-fonte, mas também elementos
 relacionados à implantação e operação, como manifestos de Kubernetes, scripts
 de automação, configurações de ambiente e, quando possível, suporte a
-observabilidade e monitoramento. Esse critério visa garantir que as aplicações
-selecionadas possam ser utilizadas não apenas para análise estática, mas também
-como base para experimentação em ambientes de laboratório.
+observabilidade e monitoramento.
 
 Além dos critérios técnicos, buscou-se deliberadamente compor um conjunto de
 aplicações com diversidade significativa, evitando a seleção de sistemas
@@ -112,18 +81,11 @@ comparativa proposta neste trabalho.
 ## Protocolo de Caracterização
 
 A análise das aplicações selecionadas foi conduzida a partir de um protocolo de
-caracterização técnica estruturado, com o objetivo de garantir consistência,
+caracterização técnica, com o objetivo de garantir consistência,
 comparabilidade e rastreabilidade entre os sistemas avaliados. Esse protocolo
 foi definido com base nas diretrizes estabelecidas no documento da atividade,
 sendo adaptado para enfatizar uma abordagem analítica fundamentada em
 evidências observáveis nos artefatos públicos das aplicações.
-
-O protocolo está organizado em dimensões complementares, cada uma delas voltada
-à investigação de aspectos específicos da arquitetura, implementação e operação
-dos sistemas. A aplicação uniforme dessas dimensões a todos os casos analisados
-permite não apenas a descrição individual das aplicações, mas também a
-identificação de padrões, diferenças estruturais e implicações práticas para
-uso em ambientes de laboratório.
 
 A primeira dimensão, denominada Identificação Geral, tem como objetivo
 contextualizar cada aplicação analisada. Nessa etapa, são levantadas
@@ -178,13 +140,6 @@ com Kubernetes, potencial para testes de desempenho e resiliência, suporte à
 observabilidade e complexidade operacional. Além disso, são identificadas
 vantagens e limitações de cada sistema como objeto de estudo, considerando o
 equilíbrio entre realismo e viabilidade prática em ambiente acadêmico.
-
-É importante destacar que todas as análises realizadas ao longo deste trabalho
-são fundamentadas, sempre que possível, em evidências extraídas diretamente dos
-artefatos públicos das aplicações, como repositórios de código, arquivos de
-configuração e documentação técnica. Quando interpretações são realizadas,
-estas são explicitamente indicadas como inferências dos autores, garantindo
-transparência metodológica e aderência às orientações da atividade.
 
 Dessa forma, o protocolo de caracterização adotado fornece uma estrutura
 sistemática e replicável para a análise comparativa das aplicações,
