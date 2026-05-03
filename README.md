@@ -15,10 +15,8 @@ authors:
 
 Este trabalho tem como objetivo realizar uma análise comparativa de aplicações
 de microsserviços de código aberto, com base em um conjunto de critérios
-técnicos definidos. A proposta está alinhada com a atividade descrita no
-documento da disciplina, que enfatiza a caracterização de sistemas reais a
-partir de seus artefatos públicos, indo além de descrições superficiais e
-buscando evidências observáveis.
+técnicos definidos. A proposta enfatiza a caracterização de sistemas reais a
+partir de seus artefatos públicos, indo além de descrições e buscando evidências observáveis.
 
 Para isso, foram selecionadas aplicações que apresentam diversidade em termos
 de domínio, tecnologias utilizadas, estratégias de comunicação e níveis de
@@ -29,7 +27,7 @@ cenários envolvendo conteinerização e orquestração com Kubernetes.
 
 ## Critério de Seleção das Aplicações
 
-Inicialmente, foram considerados como pré-requisitos essenciais a existência de
+Inicialmente, foram considerados como pré-requisitos a existência de
 repositório público acessível, a presença de documentação mínima de execução ou
 implantação e a disponibilidade de artefatos como Dockerfiles, arquivos de
 orquestração (Docker Compose ou Kubernetes), documentação arquitetural e
@@ -41,9 +39,7 @@ implícita de arquitetura de microsserviços. Para isso, foram analisados
 aspectos como a decomposição do sistema em múltiplos serviços independentes, a
 existência de comunicação entre serviços por meio de APIs ou mecanismos de
 mensageria, a presença de componentes como gateways de API, e a separação de
-responsabilidades entre os serviços. Sistemas que não apresentaram tais
-características de forma clara foram descartados, ainda que fossem amplamente
-utilizados ou bem documentados.
+responsabilidades entre os serviços.
 
 Outro fator determinante no processo de seleção foi a disponibilidade de
 artefatos suficientes para análise técnica aprofundada. Foram priorizados
@@ -67,8 +63,8 @@ produção.
 Por fim, também foi considerada a adequação das aplicações para uso em
 atividades práticas futuras, especialmente no contexto de implantação em
 ambientes conteinerizados e orquestrados. Nesse sentido, foram priorizados
-sistemas que apresentassem suporte explícito a Docker e Kubernetes, bem como
-indícios de facilidade de configuração e execução, ainda que com diferentes
+sistemas que apresentassem suporte a Docker e Kubernetes, bem como indícios 
+de facilidade de configuração e execução, ainda que com diferentes
 níveis de complexidade. Essa escolha visa não apenas atender aos objetivos
 imediatos da atividade, mas também contribuir para etapas posteriores da
 disciplina, que envolvem experimentação prática e avaliação de desempenho e
